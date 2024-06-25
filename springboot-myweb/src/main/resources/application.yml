@@ -2,6 +2,14 @@
 spring:
    application:
       name: myweb
+   
+   thymeleaf: 
+      check-template-location: true
+      mode: HTML
+      prefix: classpath:templates/
+      suffix: .html
+      view-names: th/*
+      cache: false
 
    mvc: 
       view:   
