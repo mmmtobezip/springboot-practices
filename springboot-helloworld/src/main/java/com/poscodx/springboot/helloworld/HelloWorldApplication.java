@@ -24,7 +24,6 @@ public class HelloWorldApplication {
      */
     try (ConfigurableApplicationContext ac =
         SpringApplication.run(HelloWorldApplication.class, args)) {
-
     }
   }
 }

@@ -19,10 +19,10 @@ public class MyWebApplication {
     public String hello1() {
       return "Hello World";
     }
-  }
 
-  @GetMapping("/hello2")
-  public String hello2() {
-    return "hello2";
+    @GetMapping("/hello2")
+    public String hello2() {
+      return "hello2";
+    }
   }
 }
